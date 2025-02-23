@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router"
 import "./App.css"
 import { RootLayout } from "./components/RootLayout"
-import CustomerPage from "./pages/CustomerPage.tsx"
 import ItemPage from "./pages/ItemPage.tsx"
 import PlaceOrder from "./pages/PlaceOrder"
 import Dashboard from "./pages/Dashboard"
+import CustomerPage from "./pages/CustomerPage.tsx";
 
 function App() {
   const routes = createBrowserRouter([
